@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ .maincontainer {
+background-image: img src= "logo image.to kuileyshi - Copy.jpg" alt="" style="width: 60px; height: 55px;float: left; border: 2px solid black";
+background-color: orange;
+height: 450px;
+width: 350px;
+perspective: 1000px;
+}
+.thecard {
+position: relative;
+width: 100%;
+height: 100%;
+text-align: center;
+transition: transform 0.6s;
+transform-style: preserve 3d;
+box-shadow: 0 4px 8px gray;
+}
+
+
+.maincontainer:hover .thecard {transform: rotatex(180deg);}
+
+.thefront, .theback {
+position: absolute;
+width: 100%;
+height: 100%;
+-webkit-backface-visibility: hidden;
+backface-visibility: hidden;
+}
+
+.thefront { 
+background-color: purple;
+color: red;
+}
+
+.theback {
+background-color: blue;
+color: maroon;
+transform: rotatex(180deg);
+}
+
+</style>
+<body>
+
+ <div class= "maincontainer">
+ <div class= "thecard">
+ <div class= "thefront"><h1>mica heaters</h1>
+ <img src= "IMG_0034(10)-copy.JPG alt= "" ></div>
+ <div class= "theback"><em>get easier, faster, quicker, simple mica solutions.</em>
+ </div>
+</div>
+</div>
+
+<footer>
+
+</footer>
+
+</body>
+
+</html>
